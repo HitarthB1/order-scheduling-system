@@ -1,0 +1,22 @@
+# Compiled binaries
+*.exe
+*.out
+*.app
+
+# Object files
+*.o
+*.obj
+
+# Generated project data & reports
+# We ignore these so the repo stays clean of test runs
+src/OrderBundle.txt
+Orders.txt
+accepted_orders.txt
+cancelled_orders.txt
+pc_production.txt
+component_requirement.txt
+summary_report.txt
+
+# Environment/IDE
+.vscode/
+.DS_Store

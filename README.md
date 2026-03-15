@@ -19,6 +19,11 @@ The system operates in a two-step process:
 Note on File Paths: The project currently looks for files in `../src/`. If you are running this from a different directory, you will need to update the file path strings in `main.cpp` and `BundleGenerator.cpp` to avoid a "File Not Found" error.
 Also once completed you may comment out main.cpp to run the bundle generator and vice versa.
 
+## Important
+Also update the file directory in line(s):
+- Main.cpp -   s.loadOrders("../src/OrderBundle.txt"); (line 15)
+- bundleGenerator.cpp -  ofstream file("../src/OrderBundle.txt"); (line 12)
+
 ## Output Reports
 After execution, the program generates several detailed logs including:
 - `summary_report.txt`: A high-level financial overview.
